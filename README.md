@@ -56,19 +56,19 @@
     -/<datasets>
     -/statistics
     -/fafcc
-          └─── datasets
-              └─── __init__.py
-    					└─── car_dataset.py
-    					└─── ...
-          └─── models
-              └─── __init__.py
-    					└─── inception.py
-    					└─── ...
-    					└─── wsdan.py
-    			└─── config.py
-    			└─── eval.py
-    			└─── train.py
-    			└─── utils
+      └─── datasets
+        └─── __init__.py
+    		└─── car_dataset.py
+    	  └─── ...
+      └─── models
+        └─── __init__.py
+    		└─── inception.py
+    		└─── ...
+    		└─── wsdan.py
+    	└─── config.py
+    	└─── eval.py
+    	└─── train.py
+    	└─── utils
     ```
     
 - Configuration
@@ -147,10 +147,10 @@
     ```python
     -/<datasets>
     -/statistics
-    			└─── <...>.log
-    			└─── <...>.log
-    			└─── ...
-    			└─── main.py
+    	└─── <...>.log
+    	└─── <...>.log
+    	└─── ...
+    	└─── main.py
     -/fafcc
     ```
     
