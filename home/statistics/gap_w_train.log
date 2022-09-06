@@ -1,0 +1,322 @@
+2022-08-22 16:23:25,398: INFO: [inception.py:177]: Inception3: All params loaded
+2022-08-22 16:23:25,818: INFO: [wsdan.py:154]: WSDAN: using inception_mixed_6e as feature extractor, num_classes: 196, num_attentions: 32
+2022-08-22 16:23:29,758: INFO: [train.py:101]: Network weights save to ./FGVC/Stanford-Cars/ckpt/
+2022-08-22 16:23:29,801: INFO: [train.py:134]: Start training: Total epochs: 160, Batch size: 12, Training size: 8144, Validation size: 8041
+2022-08-22 16:23:29,801: INFO: [train.py:136]: 
+2022-08-22 16:23:29,801: INFO: [train.py:144]: Epoch 001, Learning Rate 0.001
+2022-08-22 16:29:08,526: INFO: [train.py:262]: Train: Loss 5.3248, Raw Acc (22.58, 40.40), Crop Acc (14.18, 29.63), Drop Acc (15.58, 32.13), Time 338.72
+2022-08-22 16:29:41,841: INFO: [train.py:317]: Valid: Val Loss 1.5866, Val Acc (59.62, 85.06), Time 33.31
+2022-08-22 16:29:41,841: INFO: [train.py:318]: 
+2022-08-22 16:29:41,981: INFO: [train.py:144]: Epoch 002, Learning Rate 0.001
+2022-08-22 16:35:28,650: INFO: [train.py:262]: Train: Loss 2.2566, Raw Acc (72.32, 92.46), Crop Acc (50.60, 75.74), Drop Acc (58.74, 83.93), Time 346.67
+2022-08-22 16:36:01,424: INFO: [train.py:317]: Valid: Val Loss 0.7921, Val Acc (78.12, 95.60), Time 32.76
+2022-08-22 16:36:01,425: INFO: [train.py:318]: 
+2022-08-22 16:36:01,605: INFO: [train.py:144]: Epoch 003, Learning Rate 0.0009
+2022-08-22 16:41:49,845: INFO: [train.py:262]: Train: Loss 1.3620, Raw Acc (87.30, 98.27), Crop Acc (69.77, 88.51), Drop Acc (77.06, 94.56), Time 348.24
+2022-08-22 16:42:24,020: INFO: [train.py:317]: Valid: Val Loss 0.6156, Val Acc (85.51, 97.05), Time 34.16
+2022-08-22 16:42:24,021: INFO: [train.py:318]: 
+2022-08-22 16:42:24,203: INFO: [train.py:144]: Epoch 004, Learning Rate 0.0009
+2022-08-22 16:48:11,864: INFO: [train.py:262]: Train: Loss 0.9895, Raw Acc (90.75, 99.15), Crop Acc (78.70, 93.01), Drop Acc (84.41, 97.21), Time 347.66
+2022-08-22 16:48:44,983: INFO: [train.py:317]: Valid: Val Loss 0.4073, Val Acc (88.48, 98.45), Time 33.12
+2022-08-22 16:48:44,983: INFO: [train.py:318]: 
+2022-08-22 16:48:45,160: INFO: [train.py:144]: Epoch 005, Learning Rate 0.00081
+2022-08-22 16:54:34,335: INFO: [train.py:262]: Train: Loss 0.7837, Raw Acc (93.61, 99.72), Crop Acc (83.04, 95.24), Drop Acc (88.31, 98.28), Time 349.17
+2022-08-22 16:55:07,689: INFO: [train.py:317]: Valid: Val Loss 0.3685, Val Acc (89.79, 98.59), Time 33.34
+2022-08-22 16:55:07,689: INFO: [train.py:318]: 
+2022-08-22 16:55:07,876: INFO: [train.py:144]: Epoch 006, Learning Rate 0.00081
+2022-08-22 17:00:53,342: INFO: [train.py:262]: Train: Loss 0.6309, Raw Acc (96.00, 99.83), Crop Acc (87.57, 96.68), Drop Acc (91.77, 98.75), Time 345.47
+2022-08-22 17:01:26,766: INFO: [train.py:317]: Valid: Val Loss 0.3400, Val Acc (91.27, 98.84), Time 33.42
+2022-08-22 17:01:26,766: INFO: [train.py:318]: 
+2022-08-22 17:01:26,939: INFO: [train.py:144]: Epoch 007, Learning Rate 0.000729
+2022-08-22 17:07:06,752: INFO: [train.py:262]: Train: Loss 0.5422, Raw Acc (97.02, 99.93), Crop Acc (90.03, 97.48), Drop Acc (93.09, 99.09), Time 339.81
+2022-08-22 17:07:39,739: INFO: [train.py:317]: Valid: Val Loss 0.3266, Val Acc (91.33, 99.02), Time 32.98
+2022-08-22 17:07:39,739: INFO: [train.py:318]: 
+2022-08-22 17:07:39,926: INFO: [train.py:144]: Epoch 008, Learning Rate 0.000729
+2022-08-22 17:13:14,858: INFO: [train.py:262]: Train: Loss 0.4937, Raw Acc (97.18, 99.96), Crop Acc (91.48, 97.91), Drop Acc (93.16, 99.23), Time 334.93
+2022-08-22 17:13:47,508: INFO: [train.py:317]: Valid: Val Loss 0.3169, Val Acc (91.80, 98.97), Time 32.64
+2022-08-22 17:13:47,509: INFO: [train.py:318]: 
+2022-08-22 17:13:47,682: INFO: [train.py:144]: Epoch 009, Learning Rate 0.0006561
+2022-08-22 17:19:21,107: INFO: [train.py:262]: Train: Loss 0.4492, Raw Acc (97.83, 99.98), Crop Acc (92.02, 97.88), Drop Acc (94.54, 99.35), Time 333.42
+2022-08-22 17:19:54,187: INFO: [train.py:317]: Valid: Val Loss 0.2964, Val Acc (92.18, 99.12), Time 33.08
+2022-08-22 17:19:54,187: INFO: [train.py:318]: 
+2022-08-22 17:19:54,361: INFO: [train.py:144]: Epoch 010, Learning Rate 0.0006561
+2022-08-22 17:25:24,118: INFO: [train.py:262]: Train: Loss 0.4098, Raw Acc (98.15, 99.99), Crop Acc (93.53, 98.12), Drop Acc (95.03, 99.32), Time 329.76
+2022-08-22 17:25:56,756: INFO: [train.py:317]: Valid: Val Loss 0.2874, Val Acc (92.15, 99.22), Time 32.63
+2022-08-22 17:25:56,756: INFO: [train.py:318]: 
+2022-08-22 17:25:56,757: INFO: [train.py:144]: Epoch 011, Learning Rate 0.00059049
+2022-08-22 17:31:35,446: INFO: [train.py:262]: Train: Loss 0.3883, Raw Acc (98.69, 99.99), Crop Acc (93.66, 98.47), Drop Acc (95.33, 99.46), Time 338.69
+2022-08-22 17:32:07,911: INFO: [train.py:317]: Valid: Val Loss 0.2524, Val Acc (93.52, 99.25), Time 32.46
+2022-08-22 17:32:07,912: INFO: [train.py:318]: 
+2022-08-22 17:32:08,103: INFO: [train.py:144]: Epoch 012, Learning Rate 0.00059049
+2022-08-22 17:37:44,137: INFO: [train.py:262]: Train: Loss 0.3610, Raw Acc (98.67, 100.00), Crop Acc (94.65, 98.02), Drop Acc (95.73, 99.58), Time 336.03
+2022-08-22 17:38:17,008: INFO: [train.py:317]: Valid: Val Loss 0.2688, Val Acc (92.94, 99.29), Time 32.87
+2022-08-22 17:38:17,009: INFO: [train.py:318]: 
+2022-08-22 17:38:17,009: INFO: [train.py:144]: Epoch 013, Learning Rate 0.000531441
+2022-08-22 17:43:55,129: INFO: [train.py:262]: Train: Loss 0.3591, Raw Acc (98.83, 100.00), Crop Acc (94.00, 97.68), Drop Acc (96.14, 99.71), Time 338.12
+2022-08-22 17:44:28,733: INFO: [train.py:317]: Valid: Val Loss 0.2648, Val Acc (93.22, 99.32), Time 33.60
+2022-08-22 17:44:28,733: INFO: [train.py:318]: 
+2022-08-22 17:44:28,734: INFO: [train.py:144]: Epoch 014, Learning Rate 0.000531441
+2022-08-22 17:50:04,350: INFO: [train.py:262]: Train: Loss 0.3605, Raw Acc (99.08, 100.00), Crop Acc (94.13, 97.54), Drop Acc (96.65, 99.62), Time 335.62
+2022-08-22 17:50:37,831: INFO: [train.py:317]: Valid: Val Loss 0.2699, Val Acc (92.87, 99.25), Time 33.47
+2022-08-22 17:50:37,831: INFO: [train.py:318]: 
+2022-08-22 17:50:37,832: INFO: [train.py:144]: Epoch 015, Learning Rate 0.000478297
+2022-08-22 17:56:11,748: INFO: [train.py:262]: Train: Loss 0.3456, Raw Acc (99.31, 100.00), Crop Acc (93.38, 96.76), Drop Acc (97.19, 99.68), Time 333.92
+2022-08-22 17:56:45,216: INFO: [train.py:317]: Valid: Val Loss 0.2631, Val Acc (92.96, 99.24), Time 33.46
+2022-08-22 17:56:45,216: INFO: [train.py:318]: 
+2022-08-22 17:56:45,217: INFO: [train.py:144]: Epoch 016, Learning Rate 0.000478297
+2022-08-22 18:02:23,789: INFO: [train.py:262]: Train: Loss 0.3671, Raw Acc (99.34, 100.00), Crop Acc (91.92, 95.35), Drop Acc (97.21, 99.73), Time 338.57
+2022-08-22 18:02:56,263: INFO: [train.py:317]: Valid: Val Loss 0.2688, Val Acc (92.91, 99.28), Time 32.46
+2022-08-22 18:02:56,263: INFO: [train.py:318]: 
+2022-08-22 18:02:56,264: INFO: [train.py:144]: Epoch 017, Learning Rate 0.000430467
+2022-08-22 18:08:31,557: INFO: [train.py:262]: Train: Loss 0.3577, Raw Acc (99.36, 100.00), Crop Acc (91.48, 95.15), Drop Acc (97.75, 99.86), Time 335.29
+2022-08-22 18:09:04,886: INFO: [train.py:317]: Valid: Val Loss 0.2647, Val Acc (93.31, 99.29), Time 33.33
+2022-08-22 18:09:04,886: INFO: [train.py:318]: 
+2022-08-22 18:09:04,887: INFO: [train.py:144]: Epoch 018, Learning Rate 0.000430467
+2022-08-22 18:14:34,953: INFO: [train.py:262]: Train: Loss 0.3647, Raw Acc (99.50, 100.00), Crop Acc (91.04, 94.25), Drop Acc (98.02, 99.85), Time 330.07
+2022-08-22 18:15:08,493: INFO: [train.py:317]: Valid: Val Loss 0.2596, Val Acc (93.12, 99.28), Time 33.54
+2022-08-22 18:15:08,493: INFO: [train.py:318]: 
+2022-08-22 18:15:08,493: INFO: [train.py:144]: Epoch 019, Learning Rate 0.00038742
+2022-08-22 18:20:39,947: INFO: [train.py:262]: Train: Loss 0.3825, Raw Acc (99.56, 100.00), Crop Acc (89.45, 93.34), Drop Acc (98.01, 99.77), Time 331.45
+2022-08-22 18:21:12,696: INFO: [train.py:317]: Valid: Val Loss 0.2532, Val Acc (93.01, 99.30), Time 32.74
+2022-08-22 18:21:12,697: INFO: [train.py:318]: 
+2022-08-22 18:21:12,697: INFO: [train.py:144]: Epoch 020, Learning Rate 0.00038742
+2022-08-22 18:26:55,343: INFO: [train.py:262]: Train: Loss 0.3664, Raw Acc (99.55, 100.00), Crop Acc (89.83, 93.58), Drop Acc (98.24, 99.77), Time 342.65
+2022-08-22 18:27:28,440: INFO: [train.py:317]: Valid: Val Loss 0.2597, Val Acc (93.21, 99.38), Time 33.09
+2022-08-22 18:27:28,440: INFO: [train.py:318]: 
+2022-08-22 18:27:28,440: INFO: [train.py:144]: Epoch 021, Learning Rate 0.000348678
+2022-08-22 18:33:05,155: INFO: [train.py:262]: Train: Loss 0.3785, Raw Acc (99.58, 100.00), Crop Acc (88.36, 92.45), Drop Acc (98.55, 99.85), Time 336.71
+2022-08-22 18:33:38,262: INFO: [train.py:317]: Valid: Val Loss 0.2497, Val Acc (93.67, 99.37), Time 33.10
+2022-08-22 18:33:38,262: INFO: [train.py:318]: 
+2022-08-22 18:33:38,444: INFO: [train.py:144]: Epoch 022, Learning Rate 0.000348678
+2022-08-22 18:39:13,949: INFO: [train.py:262]: Train: Loss 0.3951, Raw Acc (99.63, 100.00), Crop Acc (87.38, 91.16), Drop Acc (98.61, 99.86), Time 335.50
+2022-08-22 18:39:47,738: INFO: [train.py:317]: Valid: Val Loss 0.2467, Val Acc (93.38, 99.35), Time 33.79
+2022-08-22 18:39:47,738: INFO: [train.py:318]: 
+2022-08-22 18:39:47,739: INFO: [train.py:144]: Epoch 023, Learning Rate 0.000313811
+2022-08-22 18:45:22,038: INFO: [train.py:262]: Train: Loss 0.4022, Raw Acc (99.63, 100.00), Crop Acc (86.57, 90.83), Drop Acc (98.72, 99.90), Time 334.30
+2022-08-22 18:45:55,195: INFO: [train.py:317]: Valid: Val Loss 0.2548, Val Acc (93.38, 99.28), Time 33.15
+2022-08-22 18:45:55,195: INFO: [train.py:318]: 
+2022-08-22 18:45:55,196: INFO: [train.py:144]: Epoch 024, Learning Rate 0.000313811
+2022-08-22 18:51:34,749: INFO: [train.py:262]: Train: Loss 0.3965, Raw Acc (99.56, 100.00), Crop Acc (86.80, 91.01), Drop Acc (98.71, 99.93), Time 339.55
+2022-08-22 18:52:07,349: INFO: [train.py:317]: Valid: Val Loss 0.2472, Val Acc (93.62, 99.34), Time 32.60
+2022-08-22 18:52:07,349: INFO: [train.py:318]: 
+2022-08-22 18:52:07,350: INFO: [train.py:144]: Epoch 025, Learning Rate 0.00028243
+2022-08-22 18:57:43,666: INFO: [train.py:262]: Train: Loss 0.4110, Raw Acc (99.59, 100.00), Crop Acc (85.38, 90.64), Drop Acc (98.86, 99.95), Time 336.32
+2022-08-22 18:58:16,713: INFO: [train.py:317]: Valid: Val Loss 0.2490, Val Acc (93.67, 99.38), Time 33.04
+2022-08-22 18:58:16,713: INFO: [train.py:318]: 
+2022-08-22 18:58:16,714: INFO: [train.py:144]: Epoch 026, Learning Rate 0.00028243
+2022-08-22 19:03:57,357: INFO: [train.py:262]: Train: Loss 0.4106, Raw Acc (99.55, 100.00), Crop Acc (84.98, 90.18), Drop Acc (98.91, 99.94), Time 340.64
+2022-08-22 19:04:30,279: INFO: [train.py:317]: Valid: Val Loss 0.2581, Val Acc (93.15, 99.40), Time 32.92
+2022-08-22 19:04:30,279: INFO: [train.py:318]: 
+2022-08-22 19:04:30,280: INFO: [train.py:144]: Epoch 027, Learning Rate 0.000254187
+2022-08-22 19:10:09,149: INFO: [train.py:262]: Train: Loss 0.4325, Raw Acc (99.73, 100.00), Crop Acc (83.48, 88.86), Drop Acc (99.02, 99.94), Time 338.87
+2022-08-22 19:10:42,036: INFO: [train.py:317]: Valid: Val Loss 0.2431, Val Acc (93.77, 99.39), Time 32.88
+2022-08-22 19:10:42,036: INFO: [train.py:318]: 
+2022-08-22 19:10:42,224: INFO: [train.py:144]: Epoch 028, Learning Rate 0.000254187
+2022-08-22 19:16:13,085: INFO: [train.py:262]: Train: Loss 0.4310, Raw Acc (99.61, 100.00), Crop Acc (83.57, 88.79), Drop Acc (98.93, 99.89), Time 330.86
+2022-08-22 19:16:46,724: INFO: [train.py:317]: Valid: Val Loss 0.2485, Val Acc (93.63, 99.37), Time 33.64
+2022-08-22 19:16:46,725: INFO: [train.py:318]: 
+2022-08-22 19:16:46,725: INFO: [train.py:144]: Epoch 029, Learning Rate 0.000228768
+2022-08-22 19:22:26,427: INFO: [train.py:262]: Train: Loss 0.4354, Raw Acc (99.74, 100.00), Crop Acc (82.77, 88.46), Drop Acc (99.03, 99.90), Time 339.70
+2022-08-22 19:22:59,372: INFO: [train.py:317]: Valid: Val Loss 0.2493, Val Acc (93.41, 99.45), Time 32.93
+2022-08-22 19:22:59,372: INFO: [train.py:318]: 
+2022-08-22 19:22:59,372: INFO: [train.py:144]: Epoch 030, Learning Rate 0.000228768
+2022-08-22 19:28:33,742: INFO: [train.py:262]: Train: Loss 0.4325, Raw Acc (99.77, 100.00), Crop Acc (82.88, 88.36), Drop Acc (99.04, 99.93), Time 334.37
+2022-08-22 19:29:06,690: INFO: [train.py:317]: Valid: Val Loss 0.2438, Val Acc (93.43, 99.38), Time 32.95
+2022-08-22 19:29:06,691: INFO: [train.py:318]: 
+2022-08-22 19:29:06,691: INFO: [train.py:144]: Epoch 031, Learning Rate 0.000205891
+2022-08-22 19:34:38,240: INFO: [train.py:262]: Train: Loss 0.4499, Raw Acc (99.73, 100.00), Crop Acc (81.53, 87.35), Drop Acc (99.05, 99.93), Time 331.55
+2022-08-22 19:35:11,441: INFO: [train.py:317]: Valid: Val Loss 0.2453, Val Acc (93.69, 99.44), Time 33.19
+2022-08-22 19:35:11,442: INFO: [train.py:318]: 
+2022-08-22 19:35:11,442: INFO: [train.py:144]: Epoch 032, Learning Rate 0.000205891
+2022-08-22 19:40:43,740: INFO: [train.py:262]: Train: Loss 0.4719, Raw Acc (99.72, 100.00), Crop Acc (80.21, 86.21), Drop Acc (99.19, 99.95), Time 332.30
+2022-08-22 19:41:17,122: INFO: [train.py:317]: Valid: Val Loss 0.2425, Val Acc (93.89, 99.39), Time 33.37
+2022-08-22 19:41:17,122: INFO: [train.py:318]: 
+2022-08-22 19:41:17,294: INFO: [train.py:144]: Epoch 033, Learning Rate 0.000185302
+2022-08-22 19:46:56,465: INFO: [train.py:262]: Train: Loss 0.4790, Raw Acc (99.74, 100.00), Crop Acc (79.72, 85.62), Drop Acc (99.25, 99.93), Time 339.17
+2022-08-22 19:47:29,476: INFO: [train.py:317]: Valid: Val Loss 0.2445, Val Acc (93.76, 99.33), Time 33.01
+2022-08-22 19:47:29,476: INFO: [train.py:318]: 
+2022-08-22 19:47:29,477: INFO: [train.py:144]: Epoch 034, Learning Rate 0.000185302
+2022-08-22 19:53:05,856: INFO: [train.py:262]: Train: Loss 0.4779, Raw Acc (99.75, 100.00), Crop Acc (79.75, 85.84), Drop Acc (99.08, 99.94), Time 336.38
+2022-08-22 19:53:39,214: INFO: [train.py:317]: Valid: Val Loss 0.2434, Val Acc (93.65, 99.44), Time 33.34
+2022-08-22 19:53:39,214: INFO: [train.py:318]: 
+2022-08-22 19:53:39,215: INFO: [train.py:144]: Epoch 035, Learning Rate 0.000166772
+2022-08-22 19:59:19,954: INFO: [train.py:262]: Train: Loss 0.4772, Raw Acc (99.78, 100.00), Crop Acc (79.60, 85.44), Drop Acc (99.28, 99.91), Time 340.74
+2022-08-22 19:59:53,002: INFO: [train.py:317]: Valid: Val Loss 0.2412, Val Acc (93.69, 99.33), Time 33.04
+2022-08-22 19:59:53,003: INFO: [train.py:318]: 
+2022-08-22 19:59:53,003: INFO: [train.py:144]: Epoch 036, Learning Rate 0.000166772
+2022-08-22 20:05:33,739: INFO: [train.py:262]: Train: Loss 0.4822, Raw Acc (99.84, 100.00), Crop Acc (79.35, 85.47), Drop Acc (99.35, 99.96), Time 340.74
+2022-08-22 20:06:07,224: INFO: [train.py:317]: Valid: Val Loss 0.2457, Val Acc (93.78, 99.40), Time 33.48
+2022-08-22 20:06:07,224: INFO: [train.py:318]: 
+2022-08-22 20:06:07,224: INFO: [train.py:144]: Epoch 037, Learning Rate 0.000150095
+2022-08-22 20:11:39,944: INFO: [train.py:262]: Train: Loss 0.5006, Raw Acc (99.74, 100.00), Crop Acc (77.50, 84.33), Drop Acc (99.26, 99.99), Time 332.72
+2022-08-22 20:12:13,182: INFO: [train.py:317]: Valid: Val Loss 0.2417, Val Acc (93.88, 99.39), Time 33.23
+2022-08-22 20:12:13,182: INFO: [train.py:318]: 
+2022-08-22 20:12:13,183: INFO: [train.py:144]: Epoch 038, Learning Rate 0.000150095
+2022-08-22 20:17:46,952: INFO: [train.py:262]: Train: Loss 0.4864, Raw Acc (99.77, 100.00), Crop Acc (79.08, 85.36), Drop Acc (99.15, 99.95), Time 333.77
+2022-08-22 20:18:20,171: INFO: [train.py:317]: Valid: Val Loss 0.2420, Val Acc (93.86, 99.43), Time 33.22
+2022-08-22 20:18:20,171: INFO: [train.py:318]: 
+2022-08-22 20:18:20,171: INFO: [train.py:144]: Epoch 039, Learning Rate 0.000135085
+2022-08-22 20:24:04,515: INFO: [train.py:262]: Train: Loss 0.4933, Raw Acc (99.77, 100.00), Crop Acc (77.86, 84.70), Drop Acc (99.44, 99.98), Time 344.34
+2022-08-22 20:24:37,388: INFO: [train.py:317]: Valid: Val Loss 0.2402, Val Acc (93.89, 99.47), Time 32.87
+2022-08-22 20:24:37,388: INFO: [train.py:318]: 
+2022-08-22 20:24:37,388: INFO: [train.py:144]: Epoch 040, Learning Rate 0.000135085
+2022-08-22 20:30:13,431: INFO: [train.py:262]: Train: Loss 0.5015, Raw Acc (99.73, 100.00), Crop Acc (77.60, 84.18), Drop Acc (99.32, 99.96), Time 336.04
+2022-08-22 20:30:46,202: INFO: [train.py:317]: Valid: Val Loss 0.2337, Val Acc (93.76, 99.40), Time 32.77
+2022-08-22 20:30:46,202: INFO: [train.py:318]: 
+2022-08-22 20:30:46,203: INFO: [train.py:144]: Epoch 041, Learning Rate 0.000121577
+2022-08-22 20:36:23,926: INFO: [train.py:262]: Train: Loss 0.5123, Raw Acc (99.75, 100.00), Crop Acc (76.84, 83.85), Drop Acc (99.28, 99.99), Time 337.72
+2022-08-22 20:36:57,467: INFO: [train.py:317]: Valid: Val Loss 0.2449, Val Acc (93.69, 99.40), Time 33.53
+2022-08-22 20:36:57,467: INFO: [train.py:318]: 
+2022-08-22 20:36:57,467: INFO: [train.py:144]: Epoch 042, Learning Rate 0.000121577
+2022-08-22 20:42:35,447: INFO: [train.py:262]: Train: Loss 0.5123, Raw Acc (99.75, 100.00), Crop Acc (76.66, 83.73), Drop Acc (99.34, 99.98), Time 337.98
+2022-08-22 20:43:08,500: INFO: [train.py:317]: Valid: Val Loss 0.2415, Val Acc (93.67, 99.49), Time 33.05
+2022-08-22 20:43:08,501: INFO: [train.py:318]: 
+2022-08-22 20:43:08,501: INFO: [train.py:144]: Epoch 043, Learning Rate 0.000109419
+2022-08-22 20:48:46,935: INFO: [train.py:262]: Train: Loss 0.5199, Raw Acc (99.74, 100.00), Crop Acc (76.35, 82.98), Drop Acc (99.31, 99.95), Time 338.43
+2022-08-22 20:49:19,632: INFO: [train.py:317]: Valid: Val Loss 0.2406, Val Acc (93.83, 99.45), Time 32.69
+2022-08-22 20:49:19,632: INFO: [train.py:318]: 
+2022-08-22 20:49:19,632: INFO: [train.py:144]: Epoch 044, Learning Rate 0.000109419
+2022-08-22 20:54:59,972: INFO: [train.py:262]: Train: Loss 0.5001, Raw Acc (99.72, 100.00), Crop Acc (77.28, 84.21), Drop Acc (99.21, 99.94), Time 340.34
+2022-08-22 20:55:33,361: INFO: [train.py:317]: Valid: Val Loss 0.2395, Val Acc (93.97, 99.38), Time 33.39
+2022-08-22 20:55:33,361: INFO: [train.py:318]: 
+2022-08-22 20:55:33,552: INFO: [train.py:144]: Epoch 045, Learning Rate 9.84771e-05
+2022-08-22 21:01:14,875: INFO: [train.py:262]: Train: Loss 0.5269, Raw Acc (99.75, 100.00), Crop Acc (75.29, 82.97), Drop Acc (99.40, 99.96), Time 341.32
+2022-08-22 21:01:48,313: INFO: [train.py:317]: Valid: Val Loss 0.2376, Val Acc (93.84, 99.42), Time 33.43
+2022-08-22 21:01:48,313: INFO: [train.py:318]: 
+2022-08-22 21:01:48,314: INFO: [train.py:144]: Epoch 046, Learning Rate 9.84771e-05
+2022-08-22 21:07:13,137: INFO: [train.py:262]: Train: Loss 0.5324, Raw Acc (99.79, 100.00), Crop Acc (75.10, 82.90), Drop Acc (99.55, 99.95), Time 324.82
+2022-08-22 21:07:46,813: INFO: [train.py:317]: Valid: Val Loss 0.2402, Val Acc (93.79, 99.47), Time 33.67
+2022-08-22 21:07:46,813: INFO: [train.py:318]: 
+2022-08-22 21:07:46,814: INFO: [train.py:144]: Epoch 047, Learning Rate 8.86294e-05
+2022-08-22 21:13:22,731: INFO: [train.py:262]: Train: Loss 0.5251, Raw Acc (99.74, 100.00), Crop Acc (75.55, 82.92), Drop Acc (99.32, 99.98), Time 335.92
+2022-08-22 21:13:56,266: INFO: [train.py:317]: Valid: Val Loss 0.2402, Val Acc (93.83, 99.43), Time 33.53
+2022-08-22 21:13:56,266: INFO: [train.py:318]: 
+2022-08-22 21:13:56,266: INFO: [train.py:144]: Epoch 048, Learning Rate 8.86294e-05
+2022-08-22 21:19:37,334: INFO: [train.py:262]: Train: Loss 0.5337, Raw Acc (99.74, 100.00), Crop Acc (75.22, 82.66), Drop Acc (99.19, 99.95), Time 341.07
+2022-08-22 21:20:10,131: INFO: [train.py:317]: Valid: Val Loss 0.2439, Val Acc (93.66, 99.40), Time 32.79
+2022-08-22 21:20:10,132: INFO: [train.py:318]: 
+2022-08-22 21:20:10,132: INFO: [train.py:144]: Epoch 049, Learning Rate 7.97664e-05
+2022-08-22 21:25:45,419: INFO: [train.py:262]: Train: Loss 0.5356, Raw Acc (99.77, 100.00), Crop Acc (74.78, 82.26), Drop Acc (99.37, 99.98), Time 335.29
+2022-08-22 21:26:18,621: INFO: [train.py:317]: Valid: Val Loss 0.2385, Val Acc (93.84, 99.47), Time 33.20
+2022-08-22 21:26:18,621: INFO: [train.py:318]: 
+2022-08-22 21:26:18,621: INFO: [train.py:144]: Epoch 050, Learning Rate 7.97664e-05
+2022-08-22 21:31:56,436: INFO: [train.py:262]: Train: Loss 0.5442, Raw Acc (99.84, 100.00), Crop Acc (74.53, 81.31), Drop Acc (99.46, 99.95), Time 337.81
+2022-08-22 21:32:29,819: INFO: [train.py:317]: Valid: Val Loss 0.2453, Val Acc (93.77, 99.43), Time 33.38
+2022-08-22 21:32:29,819: INFO: [train.py:318]: 
+2022-08-22 21:32:29,819: INFO: [train.py:144]: Epoch 051, Learning Rate 7.17898e-05
+2022-08-22 21:38:02,521: INFO: [train.py:262]: Train: Loss 0.5491, Raw Acc (99.72, 100.00), Crop Acc (74.04, 81.85), Drop Acc (99.40, 99.98), Time 332.70
+2022-08-22 21:38:35,890: INFO: [train.py:317]: Valid: Val Loss 0.2361, Val Acc (93.96, 99.44), Time 33.36
+2022-08-22 21:38:35,890: INFO: [train.py:318]: 
+2022-08-22 21:38:35,891: INFO: [train.py:144]: Epoch 052, Learning Rate 7.17898e-05
+2022-08-22 21:44:13,646: INFO: [train.py:262]: Train: Loss 0.5600, Raw Acc (99.79, 100.00), Crop Acc (73.55, 81.15), Drop Acc (99.46, 99.95), Time 337.75
+2022-08-22 21:44:47,065: INFO: [train.py:317]: Valid: Val Loss 0.2346, Val Acc (93.86, 99.50), Time 33.41
+2022-08-22 21:44:47,065: INFO: [train.py:318]: 
+2022-08-22 21:44:47,066: INFO: [train.py:144]: Epoch 053, Learning Rate 6.46108e-05
+2022-08-22 21:50:27,424: INFO: [train.py:262]: Train: Loss 0.5541, Raw Acc (99.73, 100.00), Crop Acc (73.71, 81.05), Drop Acc (99.36, 99.99), Time 340.36
+2022-08-22 21:51:00,485: INFO: [train.py:317]: Valid: Val Loss 0.2371, Val Acc (93.87, 99.45), Time 33.05
+2022-08-22 21:51:00,485: INFO: [train.py:318]: 
+2022-08-22 21:51:00,486: INFO: [train.py:144]: Epoch 054, Learning Rate 6.46108e-05
+2022-08-22 21:56:36,039: INFO: [train.py:262]: Train: Loss 0.5423, Raw Acc (99.74, 100.00), Crop Acc (74.23, 82.15), Drop Acc (99.34, 99.96), Time 335.55
+2022-08-22 21:57:09,077: INFO: [train.py:317]: Valid: Val Loss 0.2364, Val Acc (93.81, 99.44), Time 33.03
+2022-08-22 21:57:09,078: INFO: [train.py:318]: 
+2022-08-22 21:57:09,078: INFO: [train.py:144]: Epoch 055, Learning Rate 5.81497e-05
+2022-08-22 22:02:42,666: INFO: [train.py:262]: Train: Loss 0.5618, Raw Acc (99.78, 100.00), Crop Acc (73.44, 80.92), Drop Acc (99.45, 99.95), Time 333.59
+2022-08-22 22:03:15,773: INFO: [train.py:317]: Valid: Val Loss 0.2436, Val Acc (93.81, 99.39), Time 33.10
+2022-08-22 22:03:15,774: INFO: [train.py:318]: 
+2022-08-22 22:03:15,774: INFO: [train.py:144]: Epoch 056, Learning Rate 5.81497e-05
+2022-08-22 22:08:53,252: INFO: [train.py:262]: Train: Loss 0.5544, Raw Acc (99.83, 100.00), Crop Acc (73.74, 81.05), Drop Acc (99.45, 99.98), Time 337.48
+2022-08-22 22:09:26,025: INFO: [train.py:317]: Valid: Val Loss 0.2436, Val Acc (93.65, 99.39), Time 32.77
+2022-08-22 22:09:26,025: INFO: [train.py:318]: 
+2022-08-22 22:09:26,026: INFO: [train.py:144]: Epoch 057, Learning Rate 5.23348e-05
+2022-08-22 22:15:04,872: INFO: [train.py:262]: Train: Loss 0.5712, Raw Acc (99.75, 100.00), Crop Acc (72.62, 80.29), Drop Acc (99.39, 100.00), Time 338.85
+2022-08-22 22:15:38,044: INFO: [train.py:317]: Valid: Val Loss 0.2433, Val Acc (93.82, 99.43), Time 33.17
+2022-08-22 22:15:38,044: INFO: [train.py:318]: 
+2022-08-22 22:15:38,045: INFO: [train.py:144]: Epoch 058, Learning Rate 5.23348e-05
+2022-08-22 22:21:18,361: INFO: [train.py:262]: Train: Loss 0.5613, Raw Acc (99.80, 100.00), Crop Acc (72.89, 80.91), Drop Acc (99.44, 99.96), Time 340.32
+2022-08-22 22:21:52,000: INFO: [train.py:317]: Valid: Val Loss 0.2358, Val Acc (93.97, 99.42), Time 33.63
+2022-08-22 22:21:52,000: INFO: [train.py:318]: 
+2022-08-22 22:21:52,000: INFO: [train.py:144]: Epoch 059, Learning Rate 4.71013e-05
+2022-08-22 22:27:33,236: INFO: [train.py:262]: Train: Loss 0.5741, Raw Acc (99.78, 100.00), Crop Acc (72.67, 80.64), Drop Acc (99.40, 99.99), Time 341.24
+2022-08-22 22:28:06,001: INFO: [train.py:317]: Valid: Val Loss 0.2395, Val Acc (93.92, 99.45), Time 32.76
+2022-08-22 22:28:06,001: INFO: [train.py:318]: 
+2022-08-22 22:28:06,001: INFO: [train.py:144]: Epoch 060, Learning Rate 4.71013e-05
+2022-08-22 22:33:48,639: INFO: [train.py:262]: Train: Loss 0.5738, Raw Acc (99.78, 100.00), Crop Acc (72.25, 80.38), Drop Acc (99.51, 99.98), Time 342.64
+2022-08-22 22:34:21,709: INFO: [train.py:317]: Valid: Val Loss 0.2402, Val Acc (93.89, 99.43), Time 33.06
+2022-08-22 22:34:21,709: INFO: [train.py:318]: 
+2022-08-22 22:34:21,709: INFO: [train.py:144]: Epoch 061, Learning Rate 4.23912e-05
+2022-08-22 22:40:05,830: INFO: [train.py:262]: Train: Loss 0.5782, Raw Acc (99.82, 100.00), Crop Acc (71.98, 79.75), Drop Acc (99.42, 99.98), Time 344.12
+2022-08-22 22:40:38,918: INFO: [train.py:317]: Valid: Val Loss 0.2369, Val Acc (93.98, 99.40), Time 33.08
+2022-08-22 22:40:38,918: INFO: [train.py:318]: 
+2022-08-22 22:40:39,095: INFO: [train.py:144]: Epoch 062, Learning Rate 4.23912e-05
+2022-08-22 22:46:16,234: INFO: [train.py:262]: Train: Loss 0.5645, Raw Acc (99.83, 100.00), Crop Acc (72.88, 80.46), Drop Acc (99.56, 99.95), Time 337.14
+2022-08-22 22:46:49,145: INFO: [train.py:317]: Valid: Val Loss 0.2388, Val Acc (93.89, 99.45), Time 32.91
+2022-08-22 22:46:49,145: INFO: [train.py:318]: 
+2022-08-22 22:46:49,145: INFO: [train.py:144]: Epoch 063, Learning Rate 3.8152e-05
+2022-08-22 22:52:30,130: INFO: [train.py:262]: Train: Loss 0.5679, Raw Acc (99.83, 100.00), Crop Acc (72.37, 80.05), Drop Acc (99.50, 99.99), Time 340.98
+2022-08-22 22:53:03,422: INFO: [train.py:317]: Valid: Val Loss 0.2391, Val Acc (93.87, 99.43), Time 33.28
+2022-08-22 22:53:03,422: INFO: [train.py:318]: 
+2022-08-22 22:53:03,422: INFO: [train.py:144]: Epoch 064, Learning Rate 3.8152e-05
+2022-08-22 22:58:44,464: INFO: [train.py:262]: Train: Loss 0.5763, Raw Acc (99.80, 100.00), Crop Acc (72.16, 79.76), Drop Acc (99.52, 99.98), Time 341.04
+2022-08-22 22:59:17,686: INFO: [train.py:317]: Valid: Val Loss 0.2387, Val Acc (93.89, 99.45), Time 33.22
+2022-08-22 22:59:17,686: INFO: [train.py:318]: 
+2022-08-22 22:59:17,686: INFO: [train.py:144]: Epoch 065, Learning Rate 3.43368e-05
+2022-08-22 23:04:53,949: INFO: [train.py:262]: Train: Loss 0.5835, Raw Acc (99.84, 100.00), Crop Acc (71.61, 79.68), Drop Acc (99.46, 99.99), Time 336.26
+2022-08-22 23:05:26,835: INFO: [train.py:317]: Valid: Val Loss 0.2392, Val Acc (93.83, 99.44), Time 32.88
+2022-08-22 23:05:26,835: INFO: [train.py:318]: 
+2022-08-22 23:05:26,835: INFO: [train.py:144]: Epoch 066, Learning Rate 3.43368e-05
+2022-08-22 23:11:07,632: INFO: [train.py:262]: Train: Loss 0.5882, Raw Acc (99.74, 100.00), Crop Acc (71.23, 79.53), Drop Acc (99.45, 99.99), Time 340.80
+2022-08-22 23:11:40,429: INFO: [train.py:317]: Valid: Val Loss 0.2372, Val Acc (93.86, 99.45), Time 32.79
+2022-08-22 23:11:40,429: INFO: [train.py:318]: 
+2022-08-22 23:11:40,429: INFO: [train.py:144]: Epoch 067, Learning Rate 3.09032e-05
+2022-08-22 23:17:21,944: INFO: [train.py:262]: Train: Loss 0.5841, Raw Acc (99.79, 100.00), Crop Acc (71.93, 79.52), Drop Acc (99.57, 99.98), Time 341.51
+2022-08-22 23:17:54,798: INFO: [train.py:317]: Valid: Val Loss 0.2378, Val Acc (93.93, 99.40), Time 32.85
+2022-08-22 23:17:54,798: INFO: [train.py:318]: 
+2022-08-22 23:17:54,799: INFO: [train.py:144]: Epoch 068, Learning Rate 3.09032e-05
+2022-08-22 23:23:36,628: INFO: [train.py:262]: Train: Loss 0.5887, Raw Acc (99.83, 100.00), Crop Acc (71.34, 79.31), Drop Acc (99.52, 99.98), Time 341.83
+2022-08-22 23:24:09,521: INFO: [train.py:317]: Valid: Val Loss 0.2384, Val Acc (94.06, 99.47), Time 32.89
+2022-08-22 23:24:09,522: INFO: [train.py:318]: 
+2022-08-22 23:24:09,698: INFO: [train.py:144]: Epoch 069, Learning Rate 2.78128e-05
+2022-08-22 23:29:43,035: INFO: [train.py:262]: Train: Loss 0.5855, Raw Acc (99.82, 100.00), Crop Acc (71.73, 79.32), Drop Acc (99.45, 99.95), Time 333.34
+2022-08-22 23:30:16,042: INFO: [train.py:317]: Valid: Val Loss 0.2364, Val Acc (93.97, 99.48), Time 33.00
+2022-08-22 23:30:16,043: INFO: [train.py:318]: 
+2022-08-22 23:30:16,043: INFO: [train.py:144]: Epoch 070, Learning Rate 2.78128e-05
+2022-08-22 23:35:55,160: INFO: [train.py:262]: Train: Loss 0.6021, Raw Acc (99.83, 100.00), Crop Acc (70.69, 78.40), Drop Acc (99.59, 99.95), Time 339.12
+2022-08-22 23:36:28,908: INFO: [train.py:317]: Valid: Val Loss 0.2313, Val Acc (93.97, 99.49), Time 33.74
+2022-08-22 23:36:28,908: INFO: [train.py:318]: 
+2022-08-22 23:36:28,909: INFO: [train.py:144]: Epoch 071, Learning Rate 2.50316e-05
+2022-08-22 23:42:10,747: INFO: [train.py:262]: Train: Loss 0.5948, Raw Acc (99.72, 100.00), Crop Acc (71.22, 78.89), Drop Acc (99.37, 99.96), Time 341.84
+2022-08-22 23:42:44,395: INFO: [train.py:317]: Valid: Val Loss 0.2374, Val Acc (93.97, 99.45), Time 33.64
+2022-08-22 23:42:44,396: INFO: [train.py:318]: 
+2022-08-22 23:42:44,396: INFO: [train.py:144]: Epoch 072, Learning Rate 2.50316e-05
+2022-08-22 23:48:24,911: INFO: [train.py:262]: Train: Loss 0.5899, Raw Acc (99.83, 100.00), Crop Acc (71.25, 78.97), Drop Acc (99.44, 99.99), Time 340.51
+2022-08-22 23:48:57,608: INFO: [train.py:317]: Valid: Val Loss 0.2357, Val Acc (93.92, 99.44), Time 32.69
+2022-08-22 23:48:57,608: INFO: [train.py:318]: 
+2022-08-22 23:48:57,608: INFO: [train.py:144]: Epoch 073, Learning Rate 2.25284e-05
+2022-08-22 23:54:31,651: INFO: [train.py:262]: Train: Loss 0.5946, Raw Acc (99.72, 100.00), Crop Acc (70.98, 79.09), Drop Acc (99.46, 99.99), Time 334.04
+2022-08-22 23:55:04,463: INFO: [train.py:317]: Valid: Val Loss 0.2389, Val Acc (93.96, 99.44), Time 32.81
+2022-08-22 23:55:04,463: INFO: [train.py:318]: 
+2022-08-22 23:55:04,463: INFO: [train.py:144]: Epoch 074, Learning Rate 2.25284e-05
+2022-08-23 00:00:42,443: INFO: [train.py:262]: Train: Loss 0.5960, Raw Acc (99.79, 100.00), Crop Acc (70.56, 79.02), Drop Acc (99.56, 99.99), Time 337.98
+2022-08-23 00:01:15,993: INFO: [train.py:317]: Valid: Val Loss 0.2355, Val Acc (93.88, 99.48), Time 33.54
+2022-08-23 00:01:15,993: INFO: [train.py:318]: 
+2022-08-23 00:01:15,994: INFO: [train.py:144]: Epoch 075, Learning Rate 2.02756e-05
+2022-08-23 00:06:59,338: INFO: [train.py:262]: Train: Loss 0.6147, Raw Acc (99.77, 100.00), Crop Acc (69.90, 77.89), Drop Acc (99.55, 99.98), Time 343.34
+2022-08-23 00:07:32,623: INFO: [train.py:317]: Valid: Val Loss 0.2356, Val Acc (94.01, 99.44), Time 33.28
+2022-08-23 00:07:32,624: INFO: [train.py:318]: 
+2022-08-23 00:07:32,624: INFO: [train.py:144]: Epoch 076, Learning Rate 2.02756e-05
+2022-08-23 00:13:13,150: INFO: [train.py:262]: Train: Loss 0.6171, Raw Acc (99.77, 100.00), Crop Acc (69.38, 77.27), Drop Acc (99.61, 99.99), Time 340.53
+2022-08-23 00:13:46,726: INFO: [train.py:317]: Valid: Val Loss 0.2355, Val Acc (94.06, 99.44), Time 33.57
+2022-08-23 00:13:46,726: INFO: [train.py:318]: 
+2022-08-23 00:13:46,726: INFO: [train.py:144]: Epoch 077, Learning Rate 1.8248e-05
+2022-08-23 00:19:28,648: INFO: [train.py:262]: Train: Loss 0.6136, Raw Acc (99.82, 100.00), Crop Acc (69.58, 77.96), Drop Acc (99.55, 99.95), Time 341.92
+2022-08-23 00:20:01,741: INFO: [train.py:317]: Valid: Val Loss 0.2378, Val Acc (93.97, 99.42), Time 33.09
+2022-08-23 00:20:01,741: INFO: [train.py:318]: 
+2022-08-23 00:20:01,742: INFO: [train.py:144]: Epoch 078, Learning Rate 1.8248e-05
+2022-08-23 00:25:40,937: INFO: [train.py:262]: Train: Loss 0.6043, Raw Acc (99.80, 100.00), Crop Acc (70.64, 78.34), Drop Acc (99.46, 99.99), Time 339.20
+2022-08-23 00:26:13,699: INFO: [train.py:317]: Valid: Val Loss 0.2377, Val Acc (93.92, 99.43), Time 32.75
+2022-08-23 00:26:13,699: INFO: [train.py:318]: 
+2022-08-23 00:26:13,700: INFO: [train.py:144]: Epoch 079, Learning Rate 1.64232e-05
+2022-08-23 00:31:51,031: INFO: [train.py:262]: Train: Loss 0.6170, Raw Acc (99.78, 100.00), Crop Acc (69.44, 77.11), Drop Acc (99.50, 99.98), Time 337.33
+2022-08-23 00:32:24,118: INFO: [train.py:317]: Valid: Val Loss 0.2372, Val Acc (93.87, 99.45), Time 33.08
+2022-08-23 00:32:24,118: INFO: [train.py:318]: 
+2022-08-23 00:32:24,118: INFO: [train.py:144]: Epoch 080, Learning Rate 1.64232e-05
